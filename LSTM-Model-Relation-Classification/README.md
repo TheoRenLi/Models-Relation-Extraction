@@ -13,14 +13,10 @@
     [x_{e1}, F_{e1}, x_{e2}, {F_e2}]
     $$
 
-  - 句子级特征：其中m1和m2见下图
+  - 句子级特征：其中m1和m2见图: ![sen-level.png]()
     $$
     m = concatenate[m1:m2]
     $$
 
-  ![sen-level.png](https://raw.githubusercontent.com/TheoRenLi/Models-Relation-Extraction/master/LSTM-Model-Relation-Classification/sen-level.png)
-
-- 词向量采用维基百科最新语料训练，维度300d，skip-gram模型；试验结果F1值大小为84.3%
-- 下面是训练损失
-
-​       ![训练损失](https://raw.githubusercontent.com/TheoRenLi/Models-Relation-Extraction/master/LSTM-Model-Relation-Classification/loss_plot.png)
+- 词向量采用维基百科最新语料训练，维度300d，skip-gram模型；数据集SemEval-2010 Task 8；实验结果F1值大小为84.3%（原文F1值：84.3%）
+- 下面是训练损失: ![loss_plot.png]()
