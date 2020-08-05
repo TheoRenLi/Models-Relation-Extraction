@@ -18,9 +18,9 @@
     m = concatenate[m1:m2]
     $$
 
-  ![sen-level.png]()
+  ![sen-level.png](https://raw.githubusercontent.com/TheoRenLi/Models-Relation-Extraction/master/LSTM-Model-Relation-Classification/sen-level.png)
 
 - 词向量采用维基百科最新语料训练，维度300d，skip-gram模型；试验结果F1值大小为84.3%
 - 下面是训练损失
 
-​       ![]()
+​       ![训练损失](https://raw.githubusercontent.com/TheoRenLi/Models-Relation-Extraction/master/LSTM-Model-Relation-Classification/loss_plot.png)
